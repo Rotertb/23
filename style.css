@@ -1,0 +1,259 @@
+.body {
+    margin: 0;
+    background-color: white;
+    font-family: "Raleway";
+    padding: 0;
+}
+.ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.a {
+    text-decoration: none;
+}
+.container {
+    width: 1620px;
+    margin: 0 auto;
+}
+/*Header*/
+.header {
+    padding: 20px 0;
+    width: 100%;
+}
+.header-container {
+    display: flex;
+    justify-content: center;
+    gap: 188px;
+}
+.header-list {
+    display: flex;
+    gap: 65px
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 37px;
+    list-style: none;
+    text-decoration: none;
+}
+.header-text{
+    font-size: 24px;
+    color: #ff993a;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.header-list {
+    display: flex;
+    gap: 65;
+    list-style: none;
+    text-decoration: none;
+}
+.header-link {
+    font-family: "Raleway", sans-serif;
+    text-transform: capitalize;
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+}
+.header-link:hover {
+    color: #ff993a;
+    font-weight: 600;
+    transition: 0.5s;
+}
+/*1block*/
+.hero{
+    padding: 60px ;
+    text-align: left;
+    padding-left: 150px;
+    background-color: #ffe3d6;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%; 
+}
+.hero-h1 {
+    font-size: 16px;
+    color: #FF993A;
+}
+.hero-text{
+    color: #FF463A;
+    font-size: 48px;
+}
+.hero-button {
+    background: #ff463a;
+    border-radius: 5px;
+    padding: 15px 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 47px;
+}
+.hero-img {
+    max-width: 70%; 
+}
+/*2block*/
+.icecream {
+    padding: 60px 0;
+    width: 100%;
+}
+.icecream-list {
+    display: flex;
+    gap: 20px;
+}
+.icecream-item {
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 117px;
+    padding: 40px 140px 40px 70px;
+}
+.iceccream-title {
+    font-weight: 700;
+    font-size: 36px;
+    color: #ff463a;
+    padding-bottom: 10px;
+    font-family: "Nunito", sans-serif;
+}
+.icecream-text {
+    font-family: "Raleway", sans-serif;
+    padding-bottom: 45px;
+}
+.icecream-button {  
+    border-radius: 5px;   
+    border: 1px solid #000;
+    text-transform: capitalize;
+    font-family: "Raleway", sans-serif;    
+    font-size: 20px;
+    color: #000;
+}
+/*Block3*/
+.flavors {
+    text-align: center;
+    padding: 50px 0;
+    width: 100%;
+    background-color: #ffe3d6;
+}
+
+.flavors2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.flavors p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 48px;
+}
+.flavors-title {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #ff463a;
+    font-family: "Nunito", sans-serif;
+    padding-bottom: 40px;
+}
+.flavors-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 0 20px;
+}
+.flavor-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.flavor-item img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+/* Contact Section */
+.contact {
+    background-color: #fff;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.contact-i {
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.25);
+    background: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 35px 53px 35px;
+    width: 526px;
+}
+.contact-i2{
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.25);
+    background: #FF463A;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 30px 45px 35px;
+    width: 526px;
+}
+.contact-h4-2{
+    font-size: 18px;
+    margin-bottom: 10px;  
+    color: #fff;
+}
+.contact-p {
+    font-size: 16px;
+    color: #fff;
+}
+.contact-h4 {
+    font-size: 18px;
+    margin-bottom: 10px;  
+}
+.contact-icon {
+    width: 100px;
+    height: 100px;
+}
+/*footer*/
+.footer {
+    background-color: #181818; 
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #fff; 
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+.footer-logo img {
+    width: 40px;
+    margin-right: 10px; 
+}
+.footer-logo span {
+    font-weight: bold;
+    color: #FF993A;
+}
+.footer-rights a {
+    color: #ffffff; 
+    text-decoration: none;
+}
+.footer-rights a:hover {
+    text-decoration: underline;
+}
